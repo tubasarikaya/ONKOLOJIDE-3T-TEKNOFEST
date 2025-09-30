@@ -1,0 +1,92 @@
+{
+  "model_info": {
+    "model_type": "Neural Network",
+    "r2_score": 0.8842551669160504,
+    "rmse": 0.10544427251623732,
+    "baseline_r2": 0.44197443678134096,
+    "improvement": 0.4422807301347095,
+    "improvement_percent": 100.06930114682629,
+    "features_used": [
+      "log_dose",
+      "cell_line_encoded",
+      "dose_squared",
+      "log_dose_squared",
+      "dose_cell_interaction",
+      "cell_viability_mean",
+      "cell_viability_std",
+      "dose_rank",
+      "dose_percentile",
+      "dose_bin",
+      "log_dose_bin",
+      "sensitivity_encoded",
+      "is_high_dose",
+      "is_low_dose",
+      "reciprocal_dose",
+      "reciprocal_log_dose"
+    ],
+    "training_samples": 3291,
+    "test_samples": 823,
+    "total_samples": 4114
+  },
+  "enhanced_features": [
+    "log_dose",
+    "cell_line_encoded",
+    "dose_squared",
+    "log_dose_squared",
+    "dose_cell_interaction",
+    "cell_viability_mean",
+    "cell_viability_std",
+    "dose_rank",
+    "dose_percentile",
+    "dose_bin",
+    "log_dose_bin",
+    "sensitivity_encoded",
+    "is_high_dose",
+    "is_low_dose",
+    "reciprocal_dose",
+    "reciprocal_log_dose"
+  ],
+  "feature_importance": null,
+  "model_comparison": {
+    "Baseline (Original)": {
+      "Train R\u00b2": 0.44197443678134096,
+      "Test R\u00b2": 0.44197443678134096,
+      "Train RMSE": 0.10203779132857672,
+      "Test RMSE": 0.23152571582752213,
+      "CV R\u00b2 Mean": 0.44197443678134096,
+      "CV R\u00b2 Std": 0.0
+    },
+    "Enhanced Random Forest": {
+      "Train R\u00b2": 0.9518081080018319,
+      "Test R\u00b2": 0.8588428525926552,
+      "Train RMSE": 0.06852404982572678,
+      "Test RMSE": 0.11644574533583894,
+      "CV R\u00b2 Mean": 0.8657010857508164,
+      "CV R\u00b2 Std": 0.0022906153313461478
+    },
+    "Gradient Boosting": {
+      "Train R\u00b2": 0.9546585319456468,
+      "Test R\u00b2": 0.8257422054666904,
+      "Train RMSE": 0.0664666549192607,
+      "Test RMSE": 0.12938034204530738,
+      "CV R\u00b2 Mean": 0.8428246985586393,
+      "CV R\u00b2 Std": 0.004787599925385156
+    },
+    "XGBoost": {
+      "Train R\u00b2": 0.9536355424604404,
+      "Test R\u00b2": 0.8343436134987025,
+      "Train RMSE": 0.06721227957764629,
+      "Test RMSE": 0.12614681223958635,
+      "CV R\u00b2 Mean": 0.8480865051140104,
+      "CV R\u00b2 Std": 0.007423812120117546
+    },
+    "Neural Network": {
+      "Train R\u00b2": 0.8967519463787057,
+      "Test R\u00b2": 0.8842551669160504,
+      "Train RMSE": 0.1002990848415627,
+      "Test RMSE": 0.10544427251623732,
+      "CV R\u00b2 Mean": 0.8850496410820035,
+      "CV R\u00b2 Std": 0.0067946513988604166
+    }
+  }
+}
