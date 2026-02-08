@@ -8,7 +8,7 @@ Bu proje, *Paclitaxel ilacının farklı kanser hücre hatlarındaki optimal doz
 
 ---
 
-## 🎯 Amaç
+## Amaç
 - Paclitaxel’in farklı hücre hatlarındaki doz–yanıt etkisini modellemek  
 - IC50 değerlerini hesaplayarak ilaç duyarlılığını belirlemek  
 - Hedef etkililik (%50–%90) için önerilen dozları sunmak  
