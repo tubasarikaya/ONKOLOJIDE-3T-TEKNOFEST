@@ -16,7 +16,7 @@ Bu proje, *Paclitaxel ilacının farklı kanser hücre hatlarındaki optimal doz
 
 ---
 
-## 🔬 Metodoloji
+## Metodoloji
 1. *Veri Hazırlama:*  
    - 390 hücre hattına ait toplam *4.114 doz–yanıt ölçümü* toplandı.  
    - Eksik değerler temizlendi, log dönüşümleri ve normalizasyon uygulandı.  
@@ -40,7 +40,7 @@ Bu proje, *Paclitaxel ilacının farklı kanser hücre hatlarındaki optimal doz
 
 ---
 
-## 📊 Model Performansı
+## Model Performansı
 - *Baseline Model R²:* 0.44  
 - *Final Model (Neural Network) R²:* 0.88  
 - *RMSE:* 0.105  
@@ -50,7 +50,7 @@ Bu proje, *Paclitaxel ilacının farklı kanser hücre hatlarındaki optimal doz
 
 ---
 
-## 🌐 Web Uygulaması
+## Web Uygulaması
 Arayüz özellikleri:  
 - Hücre hattına göre IC50 hesaplama  
 - %50–%90 etkililik seviyeleri için önerilen dozlar  
@@ -59,7 +59,7 @@ Arayüz özellikleri:
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 ```text
 paclitaxel-dose-calculator/
 ├── model-development/   # 5 aşamalı ML pipeline (notebooklar)
@@ -70,7 +70,7 @@ paclitaxel-dose-calculator/
 
 ---
 
-## 📈 Grafikler
+## Grafikler
 - Veri dağılımları (doz, canlılık)  
 - Hücre bazlı doz–yanıt eğrileri  
 - Model karşılaştırmaları (R², RMSE)  
